@@ -125,4 +125,3 @@ Data Scientist | Automation Engineer | Public Health Scientist
 ## Flow Chart
 
 <img width="2481" height="3577" alt="Future-friendly variant (tiny local API)-2025-11-11-053440" src="https://github.com/user-attachments/assets/c4036c87-93f5-43e1-9bde-81e665451e2c" />
-![Future-friendly variant (tiny local API)-2025-11-11-053556](https://github.com/user-attachments/assets/ae7fd82f-e257-465d-af21-ac11bf3ceb6d)
