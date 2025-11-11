@@ -79,25 +79,21 @@ python run.py
 
 → Finds sgRNAs ± 25 bp around TP53 stop codon, builds 2× Strep-tag donor, designs primers, and outputs guide FASTA for CRISPOR.
 
-## 📊 Filtering Rules (merge_crispor.py)
-
-Guides are kept if:
+## 📊 Filtering Rules (merge_crispor.py) Guides are kept if:
 	•	off_le1mm == 0 or flag_selfhit == True
 	•	efficiency > 10
 
 This ensures only highly specific, efficient sgRNAs are selected for downstream cloning or validation.
 
-## 🧩 Project Structure
-crispr-tagger/
-│
-├── ensembl.py          # Retrieve canonical transcripts & codon coords
-├── guides.py           # Scan for local NGG PAMs
-├── donor.py            # Build donor sequence with 2× Strep-tag
-├── sequence.py         # Fetch ±500 bp amplicon window
-├── primers.py          # Primer3 wrapper for primer design
-├── io_utils.py         # Write CSV/FASTA outputs
-├── merge_crispor.py    # Merge CRISPOR TSV results & apply filters
-└── run.py              # Main pipeline entrypoint
+## 🧩 Project Structure (local/crispr-tagger/)
+	•	ensembl.py          # Retrieve canonical transcripts & codon coords
+	•	guides.py           # Scan for local NGG PAMs
+	•	donor.py            # Build donor sequence with 2× Strep-tag
+	•	sequence.py         # Fetch ±500 bp amplicon window
+	•	primers.py          # Primer3 wrapper for primer design
+	•	io_utils.py         # Write CSV/FASTA outputs
+	•	merge_crispor.py    # Merge CRISPOR TSV results & apply filters
+	•	run.py              # Main pipeline entrypoint
 
 ## 🧭 Future Add-Ons
 	•	Automatic ± 60 bp flanking sequence export for full Doench 2016 scoring
@@ -105,9 +101,7 @@ crispr-tagger/
 	•	Support for Cas12a and SaCas9 PAMs
 	•	Batch processing for multiple genes
 
-## 👩‍🔬 Example Results
-
-For CDKL5 (ENSG00000008086), CRISPR-TAG generated:
+## 👩‍🔬 Example Results (For CDKL5 (ENSG00000008086), CRISPR-TAG generated:)
 	•	10 candidate sgRNAs ± 25 bp of stop codon
 	•	200 nt donor oligo with 2× Strep-tag
 	•	18 primer pairs (700–800 bp amplicons)
