@@ -25,7 +25,7 @@ The tool integrates **Ensembl**, **CRISPOR**, and **Primer-BLAST** into a single
 3. **Scan for guides:** Identify 20 nt NGG sites within ± 25 bp of target  
 4. **Design donor:** Insert 2× Strep-tag immediately after start codon or before stop codon  
 5. **Design primers:** Create amplification primers ± 500 bp around target  
-6. **Score guides (optional):** Upload FASTA → [CRISPOR](https://crispor.tefor.net) → download TSV → merge scores  
+6. **Score guides (optional):** Upload FASTA → [CRISPOR](https://crispor.gi.ucsc.edu/) → download TSV → merge scores  
 7. **Output:** CSV + FASTA files ready for lab use or visualization  
 
 ---
@@ -122,6 +122,7 @@ Data Scientist | Automation Engineer | Public Health Scientist
 ⸻
 
 
-Flow Chart
-<img width="5894" height="3067" alt="image" src="https://github.com/user-attachments/assets/eddacb75-9dc2-4819-8a4b-3026aa8546f0" />
+## Flow Chart
+
+<img width="2481" height="3577" alt="Future-friendly variant (tiny local API)-2025-11-11-053440" src="https://github.com/user-attachments/assets/c4036c87-93f5-43e1-9bde-81e665451e2c" />
 
