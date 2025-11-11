@@ -1,0 +1,10 @@
+#guideId	targetSeq	mitSpecScore	cfdSpecScore	offtargetCount	targetGenomeGeneLocus	Doench '16-Score	Moreno-Mateos-Score	Doench-RuleSet3-Score	Out-of-Frame-Score	Lindel-Score	GrafEtAlStatus	grafType
+46forw	AAGGGCCTTGTAATTTGTGCTGG	81	88	114		NotEnoughFlankSeq	NotEnoughFlankSeq	NotEnoughFlankSeq	NotEnoughFlankSeq	NotEnoughFlankSeq	GrafOK
+163forw	GGGTGTAATTTGTGCTGGTAGGG	80	92	115	intron:NPC1L1	-1	71	-84	74	63	GrafOK
+134forw	GGGTTGTAATTTGTGCTGGTAGG	76	87	127		-1	51	4	76	84	GrafOK
+31rev	TAAGACCAGCACAAATTACAAGG	70	79	220		NotEnoughFlankSeq	NotEnoughFlankSeq	NotEnoughFlankSeq	NotEnoughFlankSeq	NotEnoughFlankSeq	GrafOK
+59rev	AAGTACCAGCACAAATTACAAGG	70	83	176		-1	33	6	79	89	GrafOK
+192forw	AGGAATTTGTGCTGGTAGGGGGG	65	78	214		-1	60	-39	71	79	GrafOK
+220forw	AGGGATTTGTGCTGGTAGGGGGG	65	78	221		-1	63	-10	71	80	GrafOK
+162forw	AGGGTGTAATTTGTGCTGGTAGG	63	85	174		-1	48	0	72	73	GrafOK
+191forw	AAGGAATTTGTGCTGGTAGGGGG	62	77	211		-1	67	-22	67	80	GrafOK
